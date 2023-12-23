@@ -1,0 +1,14 @@
+aws:
+    region: "REGION"
+    crossAccount: "CROSSACCOUNT"
+    crossAccountArn: "CROSSACCOUNT IAM ARN"
+    kinesis:
+        streamName: "KINESIS NAME"
+        partitionKey: "KINESIS PARTITIONKEY"
+msk:
+    topic: "MSK CONSUME TOPIC NAME"
+    brokers: [
+        "MSK BROKER ADDRESS LIST1",
+        "MSK BROKER ADDRESS LIST1"
+    ]
+    groupId: "MSK CONSUME CONSUMER GROUP NAME"
