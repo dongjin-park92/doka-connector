@@ -1,8 +1,8 @@
 package configs
 
 import (
+	"doka-connector/loggers"
 	"fmt"
-	"kafka-connector/loggers"
 
 	"github.com/spf13/viper"
 )
@@ -34,7 +34,7 @@ func initProfile() string {
 	default:
 		profile = "dev"
 	}
-	fmt.Println("kafka-connector profile:", profile)
+	fmt.Println("doka-connector profile:", profile)
 	return profile
 }
 

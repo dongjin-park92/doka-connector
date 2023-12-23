@@ -1,4 +1,4 @@
-module kafka-connector
+module doka-connector
 
 go 1.20
 

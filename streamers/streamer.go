@@ -2,9 +2,9 @@ package streamers
 
 import (
 	"context"
+	"doka-connector/configs"
+	"doka-connector/loggers"
 	"fmt"
-	"kafka-connector/configs"
-	"kafka-connector/loggers"
 	"sync"
 	"time"
 

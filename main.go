@@ -2,10 +2,10 @@ package main
 
 import (
 	"context"
+	"doka-connector/consumers"
+	"doka-connector/loggers"
+	"doka-connector/streamers"
 	"fmt"
-	"kafka-connector/consumers"
-	"kafka-connector/loggers"
-	"kafka-connector/streamers"
 )
 
 func main() {

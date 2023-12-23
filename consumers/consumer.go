@@ -1,9 +1,9 @@
 package consumers
 
 import (
-	"kafka-connector/configs"
-	"kafka-connector/loggers"
-	"kafka-connector/streamers"
+	"doka-connector/configs"
+	"doka-connector/loggers"
+	"doka-connector/streamers"
 
 	"github.com/Shopify/sarama"
 )
